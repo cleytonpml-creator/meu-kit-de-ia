@@ -1,35 +1,21 @@
-# Prompt: Preparar uma Reunião
+```markdown
+# Preparar Turno e Briefing de Rota (Edmonton / Londres)
 
-Use quando você quer chegar preparado, com contexto, pauta e próximos passos.
+## Objetivo
+Organizar o carregamento da van e revisar os pontos críticos do manifesto antes de sair do depósito, reduzindo tempo parado na rua e devoluções.
 
-## Modelo
-
-Copie pelo botão no canto do bloco, troque o que está entre colchetes e cole na IA que você usa.
+## Prompt Base (Copiar e Adaptar)
 
 ```text
-Quero chegar preparado para [reunião].
+Atue como um despachante de logística de última milha (last-mile) em Londres.
 
-OBJETIVO
-[O que precisa estar resolvido?]
+Com base no resumo do meu manifesto de hoje abaixo, prepare um briefing rápido de 5 minutos antes de eu carregar a van:
 
-CONTEXTO
-[O que a IA precisa saber sobre a reunião ou o projeto?]
+- Área / Postcodes do dia: [Ex: Edmonton N9, N18, Upper Edmonton]
+- Volume total de pacotes: [Ex: 115 pacotes / 92 paradas]
+- Restrições conhecidas: [Ex: 4 escolas com horário de saída às 15h, 2 ruas principais com Red Route / horário de carga restrito, 6 pacotes pesados/volumosos]
 
-RECURSOS
-[Quais informações, documentos ou ferramentas podem ser usados?]
-
-LIMITES
-[O que a IA não pode fazer sem a minha aprovação?]
-
-SUCESSO
-[Como saberemos que a preparação ficou boa?]
-
-Organize a entrega em:
-1. contexto;
-2. pauta;
-3. pontos de atenção;
-4. dúvidas;
-5. próximos passos.
-
-Antes de executar ações externas, peça minha aprovação.
-```
+Entregue:
+1. Ordem sugerida de carregamento na van (últimas paradas no fundo, primeiras e volumosos perto das portas).
+2. Alerta de janelas críticas (escolas, comércio e restrições de estacionamento).
+3. Checklist rápido de 3 itens para conferir antes de dar partida.
