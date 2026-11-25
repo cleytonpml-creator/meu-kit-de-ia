@@ -1,27 +1,21 @@
-# Prompt: Adaptar a Comunicação para Outro Público
+# Adaptar Comunicação com Destinatários (Londres - UK)
 
-Use quando a mensagem já existe e precisa chegar a outra pessoa, com outra linguagem.
+## Objetivo
+Gerar mensagens curtas, educadas e naturais em inglês britânico (UK English) para enviar via SMS/WhatsApp ou deixar no cartão de aviso durante rotas de entrega em Londres, sem precisar digitar tudo na rua.
 
-## Modelo
-
-Copie pelo botão no canto do bloco, troque o que está entre colchetes e cole na IA que você usa.
+## Prompt Base (Copiar e Adaptar)
 
 ```text
-Tenho o conteúdo abaixo e preciso comunicá-lo para [público].
+Atue como um assistente de comunicação para um motorista de entregas (courier) operando em Londres, Reino Unido.
 
-Adapte:
-- linguagem;
-- tom;
-- nível de detalhe;
-- exemplos;
-- formato.
+Reescreva ou crie uma mensagem curta, educada e direta em inglês britânico (UK English) para o destinatário com base na situação abaixo:
 
-Objetivo da comunicação: [o que a pessoa deve entender ou fazer]
-Tom desejado: [ex.: profissional, simples, informal, didático]
-Formato: [ex.: e-mail, WhatsApp, apresentação, post]
+- Situação: [Ex: Cliente ausente, pacote deixado no Safe Place atrás da lixeira azul / Portão do prédio sem código de acesso / Tentativa de entrega falhada por falta de estacionamento seguro]
+- Detalhes extras (opcional): [Ex: Número da casa fictício, horário aproximado, próximo dia de tentativa]
+- Canal: [SMS / Cartão de aviso / Mensagem rápida]
 
-Conteúdo original:
-[cole aqui]
-
-Mantenha o significado principal. Não invente informações que não estejam no conteúdo original.
-```
+Regras:
+1. Use tom profissional, amigável e típico do Reino Unido (ex: "Hi there", "Cheers", "Kind regards").
+2. Mantenha a mensagem com no máximo 3 frases curtas para leitura rápida no celular.
+3. Nunca inclua dados pessoais sensíveis no exemplo final.
+4. Me entregue 2 opções: uma ultra-curta (para digitar rápido) e outra mais detalhada.
