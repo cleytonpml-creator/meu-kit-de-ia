@@ -1,29 +1,21 @@
-# Prompt: Comparar Alternativas para Decidir Melhor
+# Comparar Alternativas Operacionais (Rotas e Custos - Londres)
 
-Use quando você tem opções na mesa e precisa decidir com critério.
+## Objetivo
+Comparar cenários reais da operação de entregas em Londres (ex: ordem de postcodes, abastecimento, manutenção da van ou tarifas de turno) com base em critérios objetivos de tempo, combustível e risco de multa (PCN/ULEZ).
 
-## Modelo
-
-Copie pelo botão no canto do bloco, troque o que está entre colchetes e cole na IA que você usa.
+## Prompt Base (Copiar e Adaptar)
 
 ```text
-Quero comparar [opção A], [opção B] e [outras opções].
+Atue como um analista de logística urbana especializado em operações de entrega em Londres (UK).
 
-Meu objetivo é: [decisão que preciso tomar].
+Compare as alternativas abaixo para a minha operação com uma van Ford Transit Custom (2017):
 
-Use estes critérios:
-1. [critério 1]
-2. [critério 2]
-3. [critério 3]
-4. [critério 4]
+- Situação / Decisão: [Ex: Começar a rota pelos postcodes comerciais de Edmonton (N9) antes das 10h vs. começar pelas áreas residenciais (N18)]
+- Alternativa A: [Descreva a primeira opção]
+- Alternativa B: [Descreva a segunda opção]
+- Critérios prioritários: [Ex: Economia de diesel, facilidade de estacionamento sem risco de PCN, taxa de entregas concluídas na primeira tentativa]
 
-Para cada opção:
-- apresente evidências relevantes;
-- destaque benefícios;
-- destaque riscos ou limitações;
-- sinalize quando faltar informação.
-
-Ao final, faça uma comparação clara e indique qual opção parece mais adequada com base nos critérios definidos.
-
-Não tome a decisão por mim. Mostre o raciocínio e os dados para que eu possa decidir.
-```
+Regras:
+1. Apresente uma tabela comparativa direta (Prós, Contras e Impacto no tempo/custo).
+2. Separe claramente o que é dado informado por mim do que é estimativa/sugestão sua.
+3. Conclua com uma recomendação prática para testar no próximo turno.
