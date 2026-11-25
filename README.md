@@ -48,40 +48,25 @@ Você não precisa instalar nada nem saber programar. Tudo acontece no navegador
 
 ## Minha Entrega
 
-Na sua cópia, abra este README, clique no lápis (**Edit this file**) e role até aqui. Troque cada frase em itálico pelo que você fez e cole o texto dentro dos blocos já prontos. Para pôr um print, é só colar a imagem com Ctrl+V. No fim, clique em **Commit changes**.
+### Contexto da Operação
+Kit de IA adaptado para a rotina real de entregas de última milha (*last-mile courier*) em **Londres, Reino Unido** (região de Edmonton / postcodes N9 e N18), operando com uma van **Ford Transit Custom** e gerenciando todo o fluxo diretamente pelo smartphone (**Google Pixel 11 Pro XL**).
 
-Nada de e-mail, nome de cliente, dado da empresa, senha ou informação pessoal nos textos e nos prints.
+### Atalhos e Templates Adaptados
+* **`01-prompts/02-adaptar-comunicacao.md`**: Geração rápida de mensagens curtas e educadas em inglês britânico (*UK English*) para destinatários na rua (*Safe Place*, portaria sem código de acesso e tentativas de entrega).
+* **`01-prompts/04-comparar-alternativas.md`**: Análise comparativa de rotas, ordem de postcodes e custos operacionais da van (diesel e risco de PCN/ULEZ).
+* **`01-prompts/05-preparar-reuniao.md`**: Transformado em *Briefing de Rota e Carregamento*, organizando o manifesto antes da saída do depósito.
+* **`02-templates/03-delegacao.md`**: Template de *Fechamento Diário de Rota e Conciliação*, aplicando controle humano (*Human-in-the-Loop*), privacidade de dados (GDPR) e separação estrita entre fatos informados e sugestões da IA.
 
-### Minha Tarefa Real
+### Tarefa Real Delegada (Fechamento de Turno)
+Deleguei à IA a consolidação operacional e financeira de um turno em Edmonton (N9/N18), exigindo apresentação prévia do plano de execução e proibindo qualquer estimativa externa não informada.
 
-_Qual tarefa da sua semana você escolheu e por que ela vale a pena?_
+#### 1. Plano de Execução e Aprovação Prévia
+<img width="864" height="1923" alt="43373" src="https://github.com/user-attachments/assets/02f2b029-ed63-4231-bdde-b2fca7794905" />
+<img width="864" height="1923" alt="43372" src="https://github.com/user-attachments/assets/c3896d2a-eae3-42d5-ac89-af0bf5def2ef" />
 
-### Meus Atalhos
 
-_Conte quais modelos do kit você adaptou, o que ficou fixo e o que muda a cada uso._
+##### 2. Resultado Final Conferido (Fatos vs. Sugestões)
+<img width="864" height="1923" alt="43374" src="https://github.com/user-attachments/assets/2a8434a2-7e7c-4948-8b01-cd2fd92bf0a0" />
+<img width="864" height="1923" alt="43375" src="https://github.com/user-attachments/assets/1d3ce2b9-fdc7-466c-89ae-07d0fb4ce28e" />
 
-```text
-Cole aqui o seu primeiro atalho, já adaptado.
-```
 
-```text
-Cole aqui o seu segundo atalho, já adaptado.
-```
-
-### Minha Delegação
-
-```text
-Cole aqui o pedido que você entregou à IA, com objetivo, contexto, recursos, limites e sucesso.
-```
-
-### O Plano da IA
-
-_Cole o print do plano e conte o que você ajustou antes de a IA começar._
-
-### O Resultado
-
-_Cole o print do resultado e conte como você conferiu antes de usar._
-
-### Como Foi para Você
-
-_Conte em poucas linhas o que mudou no seu dia a dia._
